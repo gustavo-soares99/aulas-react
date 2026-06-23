@@ -1,11 +1,13 @@
-import React  from 'react'
+import React from 'react'
+import UseStateAula from '../aulas/useState/UseStateAula';
+import ExUseState from '../aulas/useState/ExUseState';
 
 function App() {
-
   return (
     <>
-      <p>Teste</p>
-      <section id="spacer"></section>
+    <h1>Página principal</h1>
+      {/* <UseStateAula/> */}
+      <ExUseState/>
     </>
   )
 }
