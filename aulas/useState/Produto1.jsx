@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Produto = ({dados}) => {
+const Produto1 = ({dados}) => {
   return (
     <div>
       <h1>{dados.nome}</h1>
@@ -10,4 +10,4 @@ const Produto = ({dados}) => {
   )
 }
 
-export default Produto
+export default Produto1;

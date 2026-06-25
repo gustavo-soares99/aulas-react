@@ -1,5 +1,5 @@
 import React from "react";
-import Produto from "./Produto";
+import Produto1 from "./Produto1";
 
 // Os links abaixo puxam dados de um produto em formato JSON
 // https://ranekapi.origamid.dev/json/api/produto/tablet
@@ -36,7 +36,7 @@ const ExUseState = () => {
         tablet
       </button>
       {loading && <p>Carregando...</p>}
-      {!loading &&dados && <Produto dados={dados} />}
+      {!loading &&dados && <Produto1 dados={dados} />}
     </div>
   );
 };
