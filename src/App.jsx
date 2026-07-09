@@ -5,6 +5,7 @@ import UseEffectAula from '../aulas/useEffect/UseEffectAula';
 import UseEffectEx from '../aulas/useEffect/UseEffectEx';
 import UseRefAula from '../aulas/useRef/UseRefAula';
 import UseRefAula2 from '../aulas/useRef/UseRefAula2';
+import UseMemoAula from '../aulas/useMemo/UseMemoAula';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <UseEffectAula/> */}
       {/* <UseEffectEx/> */}
       {/* <UseRefAula/> */}
-      <UseRefAula2/>
+      {/* <UseRefAula2/> */}
+      <UseMemoAula/>
     </>
   )
 }
